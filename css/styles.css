@@ -30,7 +30,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 }
 .page-nav .link:hover,
-.page-nav .link:active {
+.page-nav .link:focus {
     color: #404bbf;
 }
 .address {
@@ -49,17 +49,16 @@ letter-spacing: 0.02em;
 .address .link-address:focus {
     color: #404bbf;
 }
-}
 .page-title {
-    color: #FFFFFF;
-    background-color: #2E2F42;
-    text-align: center;
+    background-color: #2e2f42;
 }
 .page-title .title {
+    color: #FFFFFF;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    text-align: center;
 
 }
 .button {
@@ -72,10 +71,12 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 cursor: pointer;
 }
-.button:hover {
+.button:hover,
+,button:focus {
     background-color: #404BBF;
 }
 .title {
+    color: #2e2f42;
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.02em;
@@ -85,12 +86,13 @@ cursor: pointer;
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
 }
 .section-team {
     background-color: #F4F4FD;
 }
 .section-title {
+    color: #2e2f42;
     font-weight: bold;
     font-size: 36px;
     line-height: 1.11;
