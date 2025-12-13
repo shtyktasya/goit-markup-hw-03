@@ -253,6 +253,7 @@ button:focus {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
+  margin-bottom: 8px
 } 
 .class-text {
   color: #434455;
